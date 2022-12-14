@@ -10,7 +10,7 @@
 body
 {
   width: 100vw;
-  height: 100vh;
+  /* height: 100vh; */
   overflow-x: hidden;
 }
 
@@ -50,6 +50,7 @@ body
   width: 65%;
   height: 100vh;
   background:#F5F2F0;
+  position: relative;
 }
 
 .container .right .right-list
@@ -60,7 +61,7 @@ body
   list-style-type: none;
   gap: 4rem;
   margin-right: 5rem;
-  margin-top: 3rem;
+  margin-top: 2rem;
   cursor: pointer;
 }
 
@@ -71,3 +72,43 @@ body
   background: black;
 }
 
+.right .social-right{
+  position: absolute;
+  right: 5em;
+  top: 6em;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.right .social-right span
+{
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.right .package
+{
+   position: absolute;
+   right: 5em;
+   top: 16em;
+}
+
+.right .package p
+{
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  line-height: 1.1;
+}
+
+.right .package button
+{
+  width: 220px;
+  padding: 10px ;
+  border: none;
+  background: #222;
+  color: #fff;
+  font-size: 16px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
