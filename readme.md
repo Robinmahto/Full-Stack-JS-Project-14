@@ -1,6 +1,6 @@
-# Assignment - 14
+# Dance-Home-Page
 
-## Project 14 [Live Link](https://full-stack-js-projects-14.netlify.app/)
+## Project 14 [Live Link](https://dance-home-pages-14.netlify.app/)
 
 - ### skills used in project
   - Learn CSS Position, Pseudo-classes, flexbox etc.
